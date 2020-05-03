@@ -6,6 +6,8 @@ void main() {
   );
 }
 
+// Column Layout Example: copy this and run the code to see how to build a basic column's
+
 class MyApp extends StatelessWidget {
   const MyApp({Key key}) : super(key: key);
 
