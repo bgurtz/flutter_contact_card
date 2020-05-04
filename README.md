@@ -1,6 +1,8 @@
 # flutter_contact_card
 
-A new Flutter project.
+### Here is what it looks like
+
+![alt text](https://github.com/bgurtz/flutter_contact_card/blob/master/assets/images/FlutterDeveloper.PNG)
 
 ## Getting Started
 
