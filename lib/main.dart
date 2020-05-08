@@ -40,91 +40,76 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                       fontFamily: 'Oswald',
                       fontSize: (30.0),
-                      color: Colors.black,
+                      color: Colors.black54,
                       letterSpacing: 5.0),
                 ),
-                Container(
-                  padding: EdgeInsets.all(10.0),
-                  margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25),
-                  color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Padding(padding: EdgeInsets.only(left: 15.0),),
-                      Icon(Icons.phone,
-                      color: Colors.black,
-                      ),
-                      SizedBox(width: 15.0,),
-                      Text('123-456-7890',
-                        style: TextStyle(
-                          fontFamily: 'Oswald',
-                          fontSize: (20.0),
-                          color: Colors.black,
-                        ),
-                      ),
-                    ],
+                SizedBox(
+                  height: 20.0,
+                  width: 175.0,
+                  child: Divider(
+                    color: Colors.white70,
                   ),
                 ),
-                Container(
-                  padding: EdgeInsets.all(10.0),
+                // Container(
+                  Card(                    
+                  // padding: EdgeInsets.all(10.0),
                   margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25),
                   color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Padding(padding: EdgeInsets.only(left: 15.0),),
-                      Icon(Icons.email,
+                  child: ListTile(
+                    leading: Icon(Icons.phone,
+                    color: Colors.black,
+                    ),
+                    title: Text('573-433-9481',
+                      style: TextStyle(fontFamily: 'Oswald',
+                      fontSize: 20.0,
                       color: Colors.black,
                       ),
-                      SizedBox(width: 15.0,),
-                      Text('bgurtz@gmail.com',
-                        style: TextStyle(
-                          fontFamily: 'Oswald',
-                          fontSize: (20.0),
-                          color: Colors.black,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
-                Container(
-                  padding: EdgeInsets.all(10.0),
+                Card(
                   margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25),
                   color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Padding(padding: EdgeInsets.only(left: 15.0),),
-                      Icon(Icons.web,
+                  child: ListTile(
+                    leading: Icon(Icons.phone,
+                    color: Colors.black,
+                    ),
+                    title: Text('bgurtz@gmail.com',
+                      style: TextStyle(fontFamily: 'Oswald',
+                      fontSize: 20.0,
                       color: Colors.black,
                       ),
-                      SizedBox(width: 15.0,),
-                      Text('www.BrianGurtz.com',
-                        style: TextStyle(
-                          fontFamily: 'Oswald',
-                          fontSize: (20.0),
-                          color: Colors.black,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
-                Container(
-                  padding: EdgeInsets.all(10.0),
+                Card(
                   margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25),
                   color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Padding(padding: EdgeInsets.only(left: 15.0),),
-                      Icon(Icons.link,
+                  child: ListTile(
+                    leading: Icon(Icons.phone,
+                    color: Colors.black,
+                    ),
+                    title: Text('www.BrianGurtz.com',
+                      style: TextStyle(fontFamily: 'Oswald',
+                      fontSize: 20.0,
                       color: Colors.black,
                       ),
-                      SizedBox(width: 15.0,),
-                      Text('LinkedIn',
-                        style: TextStyle(
-                          fontFamily: 'Oswald',
-                          fontSize: (20.0),
-                          color: Colors.black,
-                        ),
+                    ),
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 25),
+                  color: Colors.white,
+                  child: ListTile(
+                    leading: Icon(Icons.phone,
+                    color: Colors.black,
+                    ),
+                    title: Text('LinkedIn',
+                      style: TextStyle(fontFamily: 'Oswald',
+                      fontSize: 20.0,
+                      color: Colors.black,
                       ),
-                    ],
+                    ),
                   ),
                 ),
               ],
